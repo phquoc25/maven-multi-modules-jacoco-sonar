@@ -3,5 +3,5 @@ sonar:
 clean:
 	mvn clean
 all:
-	mvn install
+	mvn install -Pintegration
 

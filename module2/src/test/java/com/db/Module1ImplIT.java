@@ -6,7 +6,7 @@ import org.junit.Test;
 
 import static org.junit.Assert.assertTrue;
 
-public class Module1ImplT {
+public class Module1ImplIT {
     private IModule1 module1 = new Module1Impl();
 
     @Test
