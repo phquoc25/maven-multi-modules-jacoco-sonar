@@ -5,6 +5,7 @@
     <modelVersion>4.0.0</modelVersion>
     <properties>
         <maven-war-plugin.version>3.2.3</maven-war-plugin.version>
+        <sonar.coverage.jacoco.xmlReportPaths>${project.build.directory}/site/jacoco/jacoco.xml</sonar.coverage.jacoco.xmlReportPaths>
     </properties>
 
     <parent>
