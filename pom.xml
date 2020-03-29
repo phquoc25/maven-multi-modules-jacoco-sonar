@@ -7,6 +7,11 @@
     <groupId>com.study</groupId>
     <artifactId>maven-multi-modules-jacoco-sonar</artifactId>
     <version>1.0-SNAPSHOT</version>
+    <properties>
+        <junit.version>4.12</junit.version>
+        <maven.compiler.target>1.8</maven.compiler.target>
+        <maven.compiler.source>1.8</maven.compiler.source>
+    </properties>
     <packaging>pom</packaging>
 
     <name>Example of multi-module Maven project</name>
@@ -16,4 +21,13 @@
         <module>module2</module>
         <module>tests</module>
     </modules>
+
+    <dependencies>
+        <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+            <version>${junit.version}</version>
+            <scope>test</scope>
+        </dependency>
+    </dependencies>
 </project>
