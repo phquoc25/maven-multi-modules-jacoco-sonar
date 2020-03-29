@@ -1,3 +1,7 @@
+package com.study;
+
+import com.study.IModule2;
+import com.study.Module2Impl;
 import org.junit.Test;
 
 import static org.junit.Assert.assertTrue;
